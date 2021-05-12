@@ -5,8 +5,10 @@ nav {
   justify-content: space-between;
   height: 120px;
   padding: 1em 1.5em;
-  position: absolute;
+  position: fixed;
+  top: 0;
   width: 100%;
+  z-index: 1;
 }
 
 nav > span {
