@@ -1,0 +1,31 @@
+body > header {
+  align-items: center;
+  background-color: #f4ecec;
+  background-image: url('../images/brick-wall-dark.png');
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  width: 100%;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+.avatar img {
+  height: 160px;
+}
+
+.name {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.name h2 {
+  color: white;
+}

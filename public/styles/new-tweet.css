@@ -1,0 +1,38 @@
+.container > .new-tweet {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-right: 25px;
+  width: 900px;
+}
+
+.new-tweet form {
+  width:100%;
+}
+
+.new-tweet .footer {
+  display: flex;
+  font-family: 'Bungee';
+  justify-content:  space-between;
+  margin: 15px;
+  width: 100%;
+}
+
+.new-tweet .footer > button {
+  border: none;
+  color: #FFF;
+  background-color: #4056A1;
+}
+
+.new-tweet .footer > .counter.red {
+  color: red;
+}
+
+#tweet-text {
+  background-color: inherit;
+  border: none;
+  border-bottom: 3px solid #545149;
+  font-weight: bold;
+  margin: 15px;
+  width: 100%;
+}
