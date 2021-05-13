@@ -14,5 +14,4 @@ $(document).ready(function() {
       $(counter).removeClass('red');
     }
   });
-  $('.date').html(timeago.format(Date()));
 });

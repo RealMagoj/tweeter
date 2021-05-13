@@ -6,6 +6,14 @@
   width: 900px;
 }
 
+.new-tweet #error-message {
+  border: 3px solid red;
+  color: red;
+  display: none;
+  margin: 15px;
+  padding: 10px;
+}
+
 .new-tweet form {
   width:100%;
 }

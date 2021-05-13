@@ -41,6 +41,10 @@
   font-weight: 600;
 }
 
+.tweet .user .name {
+  padding-left: 15px;
+}
+
 .tweet .tweet-body {
   font-weight: 600;
 }
