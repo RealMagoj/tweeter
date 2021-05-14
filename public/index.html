@@ -35,35 +35,36 @@
         <i class="fas fa-angle-double-down"></i>
       </div>
     </nav>
-    <header>
-      <div class="avatar">
+    <div class="feature">
+      <header>
+        <div class="avatar">
           <img src="/images/profile-hex.png"> 
-      </div>
-      <br>
-      <div class="name">
+        </div>
+        <br>
+        <div class="name">
           <h2>Your Name</h2>
-      </div>
-    </header>
-
-    <!-- Page-specific (main) content here -->
-    <main class="container">
-      <section class="new-tweet">
-        <!-- <h2>Compose Tweet</h2> -->
-        <form id="tweet-form" action="/tweets" method="POST">
-          <!-- <label for="tweet-text">What are you humming about?</label> -->
-          <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
-          <div id="error-message"></div>
-          <div class="footer">
-            <button type="submit">Tweet</button>
-            <output name="counter" class="counter" for="tweet-text">140</output>
-          </div>
-        </form>
-      </section>
-      <section id="tweets-container">
-        <!-- <article class="tweet">
-          <header>
-            <div class="user">
-              <span><img class="user-icon" src="images/png-clipart-samuel-l-jackson-cartoon-samuel-l-jackson-free-celebrities-face.png"/></span>
+        </div>
+      </header>
+      
+      <!-- Page-specific (main) content here -->
+      <main class="container">
+        <section class="new-tweet">
+          <!-- <h2>Compose Tweet</h2> -->
+          <form id="tweet-form" action="/tweets" method="POST">
+            <!-- <label for="tweet-text">What are you humming about?</label> -->
+            <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
+            <div id="error-message"></div>
+            <div class="footer">
+              <button type="submit">Tweet</button>
+              <output name="counter" class="counter" for="tweet-text">140</output>
+            </div>
+          </form>
+        </section>
+        <section id="tweets-container">
+          <!-- <article class="tweet">
+            <header>
+              <div class="user">
+                <span><img class="user-icon" src="images/png-clipart-samuel-l-jackson-cartoon-samuel-l-jackson-free-celebrities-face.png"/></span>
               <span>Samuel L. Jackson</span>
             </div>
             <div>
@@ -144,7 +145,9 @@
             </div>
           </footer>
         </article> -->
-      </section>
-    </main>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
+  

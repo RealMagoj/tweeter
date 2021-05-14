@@ -1,4 +1,4 @@
-body > header {
+body >.feature > header {
   align-items: center;
   background-color: #f4ecec;
   background-image: url('../images/brick-wall-dark.png');
@@ -16,7 +16,7 @@ body > header {
 }
 
 .avatar img {
-  height: 160px;
+  /* height: 160px; */
 }
 
 .name {
@@ -28,4 +28,11 @@ body > header {
 
 .name h2 {
   color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+  body >.feature > header {
+    margin: 250px 50px 50px;
+    width: 30%; 
+  }
 }

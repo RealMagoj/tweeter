@@ -1,5 +1,4 @@
 nav {
-  background-color: #4056A1;
   display: flex;
   color: #FFFFFF;
   justify-content: space-between;
@@ -8,7 +7,6 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
 }
 
 nav > span {
@@ -26,4 +24,10 @@ nav > .new-tweet {
 
 .fa-angle-double-down {
   color: red;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    background-color: #4056A1;
+  }
 }

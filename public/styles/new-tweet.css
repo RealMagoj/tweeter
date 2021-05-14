@@ -3,7 +3,6 @@
   justify-content: center;
   margin: auto;
   padding-right: 25px;
-  width: 900px;
 }
 
 .new-tweet #error-message {
@@ -43,4 +42,11 @@
   font-weight: bold;
   margin: 15px;
   width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    margin: 250px 50px 50px;
+    width: 60%;
+  }
 }

@@ -40,7 +40,6 @@ const escape = function (str) {
 };
 
 $(document).ready(()=> {
-  $("#error-message").hide();
   const loadTweets = function() {
     $.get('/tweets').then(function(res) {
       renderTweets(res);
