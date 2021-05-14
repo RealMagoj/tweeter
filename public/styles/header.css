@@ -12,11 +12,6 @@ body >.feature > header {
   display: flex;
   justify-content: center;
   position: absolute;
-  width: 100%;
-}
-
-.avatar img {
-  /* height: 160px; */
 }
 
 .name {
