@@ -6,7 +6,7 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
-!["Login Page"](https://github.com/RealMagoj/tinyapp/blob/master/docs/Screenshot%20from%2021-09-29%00-13-56.png)
+!["Home Page"](https://github.com/RealMagoj/tweeter/blob/master/docs/Screenshot%20from%202021-09-29%2000-13-56.png)
 
 ## Getting Started
 
